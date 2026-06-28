@@ -35,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="dark">
       <head>
+        <meta name="monetag" content="3b3c89d9074128b75f25fae8a8aa5e4a" />
         <link rel="canonical" href="https://yourdomain.com" />
       </head>
       <body
