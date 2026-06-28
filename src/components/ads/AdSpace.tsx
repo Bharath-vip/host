@@ -28,7 +28,7 @@ export function AdSpace({ className, format = 'banner' }: AdSpaceProps) {
       <span className="text-muted-foreground/50 text-xs tracking-widest uppercase relative z-10">
         Advertisement
       </span>
-      {/* Monetag script will be inserted here */}
+      <div dangerouslySetInnerHTML={{ __html: '<script src="https://quge5.com/88/tag.min.js" data-zone="254285" async data-cfasync="false"></script>' }} />
     </div>
   );
 }
