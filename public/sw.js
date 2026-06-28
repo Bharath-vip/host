@@ -1,8 +1,6 @@
-// Monetag Service Worker Placeholder
-// Please inject the monetization code provided by Monetag here.
-self.addEventListener('install', (event) => {
-  console.log('Service worker installed.');
-});
-self.addEventListener('activate', (event) => {
-  console.log('Service worker activated.');
-});
+self.options = {
+    "domain": "3nbf4.com",
+    "zoneId": 11212069
+}
+self.lary = ""
+importScripts('https://3nbf4.com/act/files/service-worker.min.js?r=sw')

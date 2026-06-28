@@ -36,6 +36,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="dark">
       <head>
         <meta name="monetag" content="3b3c89d9074128b75f25fae8a8aa5e4a" />
+        <script src="https://quge5.com/88/tag.min.js" data-zone="254285" async data-cfasync="false"></script>
         <link rel="canonical" href="https://yourdomain.com" />
       </head>
       <body
